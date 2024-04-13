@@ -1,0 +1,32 @@
+---
+import "@fontsource/jost"; // Defaults to weight 400 instalacion desde npm
+// import "@fontsource-variable/jost"; instalacion de fontsource
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="TODO" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="faviconvel.svg" />
+        <title>La velada</title>
+    </head>
+    <body>
+        <slot />
+    </body>
+
+    <style is:global>
+        html {
+            font-family:
+                "Jost Variable" system-ui,
+                sans-serif;
+            background: #ddd;
+        }
+    </style>
+</html>
