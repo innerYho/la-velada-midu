@@ -4,12 +4,11 @@
 npm create astro@latest -- --template minimal
 ```
 
-npm install @astrojs/tailwind tailwindcss
-o
 pnpx astro add tailwind
 
     midudev tailwind animations
 npm i @midudev/tailwind-animations
+npm install @midudev/tailwind-animations
 https://github.com/midudev/tailwind-animations
 
 # empieza el servidor de desarrollo
@@ -20,6 +19,14 @@ npm i @fontsource/jost
 o
 npm install @fontsource-variable/jost
 import "@fontsource/jost"; // Defaults to weight 400
+
+    tsconfig 23:12
+Sustituye la navegación de "../" por la carpeta de "src" por defecto
+"compilerOptions": {"paths": {"@/*": ["./src/*"]}}
+
+    Compremir svg
+svgomg
+
 
 
 Proceso del vídeo 21:04

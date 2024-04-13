@@ -1,10 +1,23 @@
 ---
 import Layout from "..//layouts/Layout.astro";
+// import animations from '@midudev/tailwind-animations'
+import Countdown from "@/sections/Countdown.astro";
+import Footer from "@/sections/Footer.astro";
+import Hero from "@/sections/Hero.astro";
+import Info from "@/sections/Info.astro";
+import PrincipalDate from "@/sections/PrincipalDate.astro";
 ---
 
 <Layout title="La Velada IV">
+	<Hero />
 	<main>
 		<h1 class="text-white animate-blurred-fade-in">La Velada IV</h1>
+		<!-- <h1 class="text-white animate-blurred-fade-in">La Velada IV</h1> -->
+
 		<p>La Velada IV es un evento de Boxeo.</p>
+		<PrincipalDate />
+		<Info />
+		<Countdown />
 	</main>
+	<Footer />
 </Layout>
