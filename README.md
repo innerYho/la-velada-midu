@@ -25,10 +25,11 @@ Sustituye la navegación de "../" por la carpeta de "src" por defecto
 "compilerOptions": {"paths": {"@/*": ["./src/*"]}}
 
     Compremir svg
-svgomg
+svgomg  => https://svgomg.net/
 
+    pag convertir hora global
+epochConvert => https://www.epochconverter.com/
 
-
-Proceso del vídeo 21:04
+Proceso del vídeo 55:48
 Desarrollo y Deploy de la Pre-landing web de LA VELADA del año IV
 https://www.youtube.com/watch?v=BVnhDlbhPvs
